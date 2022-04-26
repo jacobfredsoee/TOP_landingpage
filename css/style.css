@@ -1,10 +1,12 @@
 html, body {
     height: 100%;
+    margin: 0px;
 }
 
 body {
     display: flex;
     flex-direction: column;
+    font-family: Verdana,Geneva,sans-serif;
 }
 
 .container {
@@ -16,4 +18,26 @@ body {
 .footer {
     flex-shrink: 0;
     padding: 20px;
+    background-color: #1F2937;
+    color: #fff;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    color: #fff;
+    margin: 0px 50px;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.qoute {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
 }
