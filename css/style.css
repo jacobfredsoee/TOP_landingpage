@@ -1,6 +1,6 @@
 * {
     font-family: Roboto,Verdana,Geneva,sans-serif;
-    border: 0px solid white;
+    border: 0px solid black;
 }
 
 html, body {
@@ -136,4 +136,33 @@ button {
     justify-content: center;
 }
 
+.img--box {
+    width: 100%;
+    height: 100%;
+    margin: 1em;
+}
 
+.img--box img {    
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.img--box p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.imgboxes {
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.img-section {
+    padding: 3em 2em;
+}
+.img-section h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+}
