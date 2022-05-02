@@ -64,8 +64,6 @@ h1 {
     font-size: 48px;
 }
 
-
-
 ul {
     display: flex;
     margin: 0;
@@ -117,9 +115,15 @@ button {
 
 .quote {
     background-color: #E5E7EB;
-    color: #1F2937;
-    font-size: 36px;
+    padding: 5em 2em;
+}
+
+.quote-text {
+    font-size: 20px;
     font-style: italic;
+    color: #1F2937; 
+    width: 700px;
+    margin: auto;
 }
 
 .quote-text::before {
@@ -130,6 +134,14 @@ button {
 .quote-text::after {
     content: close-quote;
     font-size: 1.2em;
+}
+
+.quote-who {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: right;
+    width: 600px;
+    margin: auto;
 }
 
 .footer {
@@ -159,8 +171,9 @@ button {
 }
 
 .img-section {
-    padding: 3em 2em;
+    padding: 5em 2em;
 }
+
 .img-section h2 {
     text-align: center;
     font-size: 36px;
